@@ -6,10 +6,10 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import Statistics from './components/Statistics.jsx';
 import Jobs from './components/Jobs.jsx';
 import Blog from './components/component/Blog.jsx';
 import Home from './components/component/Home.jsx';
+import Statistics from './components/Statistics.jsx';
 
 const router = createBrowserRouter([
   {
@@ -18,8 +18,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Home></Home>
-        // loader:()=>fetch('')
+        element: <Home></Home>,
       },
       {
         path: "/Statistics",
