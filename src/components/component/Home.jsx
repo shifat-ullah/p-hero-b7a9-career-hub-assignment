@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
 import Showhomedata from './Showhomedata';
+import Feature from './Feature';
 
 const Home = () => {
     const [products, setproducts]=useState([]);
@@ -15,7 +16,7 @@ const Home = () => {
     useEffect(()=>{
         fetch('Jobfeature.json')
         .then(res => res.json())
-        .then(data => console.log(data))
+        .then(data => setFeature(data))
     },[])
     return (
         <div className='mx-auto w-[80%] mt-28'>
@@ -53,7 +54,16 @@ const Home = () => {
 
             </div>
 
-            
+            {/* feature api data  */}
+
+            <div className=' grid md:grid-cols-2 gap-5 sm:grid-cols-1'>
+                {
+                    features.map(feature => <Feature
+                    key={feature.id}
+                    feature={feature}
+                    ></Feature>)
+                }
+            </div>
 
         </div>
     );

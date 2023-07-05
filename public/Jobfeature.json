@@ -4,49 +4,49 @@
       "name": "Facebook",
       "location": "Menlo Park, California, USA",
       "salary": "Salary: $100k - $150k",
-      "image_url": "https://th.bing.com/th/id/OIP.Ua5AXhtGRgPuisZVmetclQHaFL?pid=ImgDet&rs=1"
+      "image": "https://th.bing.com/th/id/OIP.Ua5AXhtGRgPuisZVmetclQHaFL?pid=ImgDet&rs=1"
     },
     {
       "title": "Technology",
       "name": "Google",
       "location": "Mountain View, California, USA",
       "salary": "Salary: $120k - $140k",
-      "image_url": "https://th.bing.com/th/id/OIP.iDvQH2mK3omhPoWdSonQVgHaEK?pid=ImgDet&rs=1"
+      "image": "https://th.bing.com/th/id/OIP.iDvQH2mK3omhPoWdSonQVgHaEK?pid=ImgDet&rs=1"
     },
     {
       "title": "Consumer Electronics",
       "name": "Apple",
       "location": "Cupertino, California, USA",
       "salary": "Salary: $130k - $145k",
-      "image_url": "https://th.bing.com/th/id/OIP.ZydHDqfg0uO7pmE9B9Na6AHaHa?pid=ImgDet&rs=1"
+      "image": "https://th.bing.com/th/id/OIP.ZydHDqfg0uO7pmE9B9Na6AHaHa?pid=ImgDet&rs=1"
     },
     {
       "title": "E-Commerce",
       "name": "Amazon",
       "location": "Seattle, Washington, USA",
       "salary": "Salary: $110k - $135k",
-      "image_url": "https://th.bing.com/th/id/OIP.RbDmmt0F982-5AzJmXvXtAHaHa?pid=ImgDet&rs=1"
+      "image": "https://th.bing.com/th/id/OIP.RbDmmt0F982-5AzJmXvXtAHaHa?pid=ImgDet&rs=1"
     },
     {
       "title": "Software",
       "name": "Microsoft",
       "location": "Redmond, Washington, USA",
       "salary": "Salary: $120k - $140k",
-      "image_url": "https://th.bing.com/th/id/OIP.AwqQPPIsXyJ5Q7c0sSy0pgHaGt?pid=ImgDet&rs=1"
+      "image": "https://th.bing.com/th/id/OIP.AwqQPPIsXyJ5Q7c0sSy0pgHaGt?pid=ImgDet&rs=1"
     },
     {
       "title": "Semiconductors",
       "name": "Intel",
       "location": "Santa Clara, California, USA",
       "salary": "Salary: $125k - $145k",
-      "image_url": "https://th.bing.com/th/id/OIP.OjHIcHwqoxoBSTOOjbw9lAHaHa?pid=ImgDet&rs=1"
+      "image": "https://th.bing.com/th/id/OIP.OjHIcHwqoxoBSTOOjbw9lAHaHa?pid=ImgDet&rs=1"
     },
     {
       "title": "Information Technology",
       "name": "IBM",
       "location": "Armonk, New York, USA",
       "salary": "Salary: $100k - $130k",
-      "image_url": "https://th.bing.com/th/id/OIP.ibMPhGZhcAJQzM8OFOVNjwHaE6?pid=ImgDet&rs=1"
+      "image": "https://th.bing.com/th/id/OIP.ibMPhGZhcAJQzM8OFOVNjwHaE6?pid=ImgDet&rs=1"
     }
   ]
   
