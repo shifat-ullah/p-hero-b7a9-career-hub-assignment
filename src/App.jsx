@@ -1,18 +1,21 @@
-/* eslint-disable no-unused-vars */
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Header from './components/component/Header'
-import Home from './components/component/Home'
-import { Outlet } from 'react-router-dom'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Home from './components/Home/Home';
+import { Outlet, useNavigation } from 'react-router-dom';
+import Header from './components/Header/Header';
+import { ToastContainer } from 'react-toastify';
+
 
 function App() {
+  const navigation = useNavigation();
+
   return (
-    <>
+    <div className="App">
       <Header></Header>
-      <Outlet></Outlet>
-    </>
+      <div className='loading-bar text-center'>{navigation.state === 'loading' && 'Loading...'}</div>
+      <Outlet />
+      <ToastContainer />
+    </div>
   )
 }
 
