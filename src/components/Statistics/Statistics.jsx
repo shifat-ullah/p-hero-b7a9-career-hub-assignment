@@ -18,42 +18,42 @@ const Statistics = () => {
     const data = [
         {
             "id": 1,
-            "mark": 60,
+            "mark": 57,
             "Assignment": 1
         },
         {
             "id": 2,
-            "mark": 60,
+            "mark": 54,
             "Assignment": 2
         },
         {
             "id": 3,
-            "mark": 60,
+            "mark": 45,
             "Assignment": 3
         },
         {
             "id": 4,
-            "mark": 48,
+            "mark": 42,
             "Assignment": 4
         },
         {
             "id": 5,
-            "mark": 60,
+            "mark": 24,
             "Assignment": 5
         },
         {
             "id": 6,
-            "mark": 57,
+            "mark": 22,
             "Assignment": 6
         },
         {
             "id": 7,
-            "mark": 60,
+            "mark": 30,
             "Assignment": 7
         },
         {
             "id": 8,
-            "mark": 60,
+            "mark": 30,
             "Assignment": 8
         }
     ];
